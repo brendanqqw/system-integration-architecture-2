@@ -3,8 +3,6 @@
 
 value = input("What Number? ")
 if int(value) % 2 == 0:
-    print(value)
-    print("is even")
+    print(f"{value} is even")
 else:
-    print(value)
-    print("is odd")
+    print(f"{value} is odd")
