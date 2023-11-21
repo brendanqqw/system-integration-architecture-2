@@ -8,5 +8,9 @@ def print_odd_numbers():
   for i in range(1, 100):
       if i % 2 != 0:
           print(i)
-print_even_numbers()
-print_odd_numbers()
+
+value = input("Odd or Even? ")
+if value == "odd":
+  print_odd_numbers()
+elif value == "even":
+  print_even_numbers()
