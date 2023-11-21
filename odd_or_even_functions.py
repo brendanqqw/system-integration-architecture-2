@@ -3,7 +3,7 @@
 def even_or_odd():
     value = input("What Number? ")
     if int(value) % 2 == 0:
-        print(f"{value} is even")
+        print(f"{value} is an even")
     else:
-        print(f"{value} is odd")
+        print(f"{value} is an odd")
 even_or_odd()
